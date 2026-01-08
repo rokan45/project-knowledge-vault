@@ -1,3 +1,137 @@
-body{
+/* body{
     background-color: antiquewhite;
+    
+} */
+
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
 }
+
+
+/* Shared Style */
+.btn{
+    background-color: #469165;
+    text-align: center;
+    border: none;
+}
+
+/* Main style */
+nav{
+    width: 78%;
+    max-width: 1140px;
+    color: #FFFFFF;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+}
+nav .logo{
+    width: 139px;
+    /* padding: 16px 120px; */
+    margin: 16px 120px;
+}
+nav .menu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+nav .menu a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000000;
+}
+
+nav .btn{
+    color: #FFFFFF;
+    border-radius: 4px;
+    padding: 12.5px 16px;
+    font-size: 20px;
+    font-weight: 600px;
+    cursor: pointer;
+}
+nav .btn a{
+    text-decoration: none;
+}
+
+#banner{
+    padding-top: 25px;
+    background: url(/image/hero-bg.png);
+    background-repeat: no-repeat;
+}
+#banner .banner-container{
+    width: 78%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 115px 120px 180px 120px;
+    text-align: center;
+
+}
+.circle-button{
+    border-radius: 1000px;
+    padding: 8px 12px 8px 12px;
+    background-color: #FFFFFF;
+    color: #469165;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+.content h1{
+    /* font-size: 300px; */
+    font-weight: bold;
+    /* line-height: 84px; */
+    letter-spacing: 0%;
+}
+.first-line{
+    font-size: 50px;
+    line-height: 10px;
+    color: #FFFFFF;
+    display: block;
+}
+.sec-line{
+    font-size: 50px;
+    line-height: 10px;
+    color: #30B868;
+    display: block;
+}
+
+.content p{
+    width: 78%;
+    max-width: 1140px;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-top: 16px;
+    text-wrap: balance;
+}
+
+.banner-button .first-button{
+    height: 52px;
+    width: 251px;
+    font-size: 16px;
+    font-weight: 600px;
+    margin-top: 48px;
+    gap: 10px;
+    background-color: #469165;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.banner-button .sec-button{
+    height: 52px;
+    width: 251px;
+    font-size: 16px;
+    font-weight: 600px;
+    margin-top: 48px;
+    gap: 10px;
+    background-color: #ffffff00;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: 1px solid #FFFFFF;
+}
+
