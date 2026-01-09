@@ -46,6 +46,11 @@ nav .btn{
     font-size: 20px;
     font-weight: 600px;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+     background-color: #3b7452;
+    box-shadow: 0 4px 8px #F7F6F2;
 }
 nav .btn a{
     text-decoration: none;
@@ -111,8 +116,8 @@ nav .btn a{
     gap: 16px;
     justify-content: center;
     margin-top: 48px;
+    transition: all 0.3s ease;
 }
-
 .first-button{
     display: flex;
     gap: 10px;
@@ -127,6 +132,10 @@ nav .btn a{
     background-color: #469165;
     color: #FFFFFF;
     border:none;
+}
+.first-button:hover {
+    background-color: #3b7452;
+    box-shadow: 0 4px 8px #F7F6F2;
 }
 
 .sec-button{
@@ -143,6 +152,11 @@ nav .btn a{
     background-color: #ffffff00;
     color: #FFFFFF;
     border: 1px solid #FFFFFF;
+}
+.sec-button:hover {
+    background-color: #FFFFFF;
+    color: #001931;
+    border-color: #FFFFFF;
 }
 
 #features{
@@ -296,6 +310,11 @@ nav .btn a{
     background-color: #469165;
     color: #FFFFFF;
     border-radius: 4px;
+    transition: all0.3s ease;
+}
+.enroll-container button:hover{
+     background-color: #3b7452;
+    box-shadow: 0 4px 8px #F7F6F2;
 }
 .enroll-container button img{
     height: 16px;
