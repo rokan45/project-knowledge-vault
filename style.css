@@ -152,13 +152,13 @@ nav .btn a{
 
 .container{
     width: 78%;
-    max-width: 1360px;
+    max-width: 1140px;
     margin: 0 auto;
     text-align: center;
 
 }
 .heading h2{
-    max-width: 1360px;
+    max-width: 1140px;
     font-size: 48px;
     font-weight: bold;
     margin: 0 auto;
@@ -200,13 +200,16 @@ nav .btn a{
 }
 
 #info{
-    padding: 120px;
+    padding: 80px 20px;
 }
 .info-container{
     display: flex;
-    max-width: 1360px;
+    width: 78%;
+    max-width: 1140px;
     margin: 0 auto;
     gap: 60px;
+    align-items: center;
+    border-radius: 12px;
 }
 .info-photo{
     max-width: 600px;
@@ -218,7 +221,7 @@ nav .btn a{
 .info-content h4{
     font-size: 16px;
     line-height: 20px;
-    font-weight: 500px;
+    font-weight: 500;
     color: #469165;
     
 }
