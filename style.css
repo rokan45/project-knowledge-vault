@@ -1,9 +1,3 @@
-/* body{
-    background-color: antiquewhite;
-    
-} */
-
-
 .font-inter {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
@@ -26,11 +20,9 @@ nav{
     margin: 0 auto;
     justify-content: space-between;
     text-align: center;
-    border: 1px solid yellow;
 }
 nav .logo{
     width: 139px;
-    /* padding: 16px 120px; */
     margin: 16px 120px;
 }
 nav .menu{
@@ -61,9 +53,8 @@ nav .btn a{
 
 #banner{
     padding-top: 25px;
-    background: url(/image/hero-bg.png);
+    background: url(image/hero-bg.png);
     background-repeat: no-repeat;
-    border: 1px solid sandybrown;
 }
 #banner .banner-container{
     width: 78%;
@@ -74,6 +65,8 @@ nav .btn a{
 
 }
 .circle-button{
+    display: flex;
+    margin: 0 auto;
     border-radius: 1000px;
     padding: 8px 12px 8px 12px;
     background-color: #FFFFFF;
@@ -83,9 +76,9 @@ nav .btn a{
     gap: 6px;
 }
 .content h1{
-    /* font-size: 300px; */
+    font-size: 300px;
     font-weight: bold;
-    /* line-height: 84px; */
+    line-height: 84px;
     letter-spacing: 0%;
 }
 .first-line{
@@ -102,6 +95,7 @@ nav .btn a{
 }
 
 .content p{
+    margin: 0 auto;
     width: 78%;
     max-width: 1140px;
     font-size: 18px;
@@ -112,37 +106,47 @@ nav .btn a{
     text-wrap: balance;
 }
 
-.banner-button .first-button{
-    padding: 16px 46px 16px 16px;
-    height: 52px;
-    width: 251px;
-    font-size: 16px;
-    font-weight: 600px;
+.banner-button{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
     margin-top: 48px;
-    gap: 10px;
-    background-color: #469165;
-    color: #FFFFFF;
-    border-radius: 4px;
 }
 
-.banner-button .sec-button{
-    padding: 16px 46px 16px 16px;
-    height: 52px;
+.first-button{
+    display: flex;
+    gap: 10px;
+    padding: 12px 16px;
+    align-items: center;
     width: 251px;
+    height: 52px;
     font-size: 16px;
     font-weight: 600px;
-    margin-top: 48px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #469165;
+    color: #FFFFFF;
+    border:none;
+}
+
+.sec-button{
+    display: flex;
     gap: 10px;
+    padding: 16px 16px 16px 46px;
+    align-items: center;
+    width: 251px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 600px;
+    border-radius: 4px;
+    cursor: pointer;
     background-color: #ffffff00;
     color: #FFFFFF;
-    border-radius: 4px;
     border: 1px solid #FFFFFF;
 }
 
 #features{
     padding-top: 0px;
-    background-color: antiquewhite;
-    border: 1px solid red;
     text-align: center;
 }
 
@@ -172,16 +176,18 @@ nav .btn a{
     gap: 24px;
 }
 .card{
-    border: 1px solid red;
     padding: 70px 24px;
     max-width: 322px;
     text-align: center;
     align-items: center;
-    box-shadow: 0 0px 8px 0 #000000;
+    border-radius: 8px;
+    background-color: #f7f6f2bc;
+    box-shadow: 0 0px 8px 0 #00000027;
 }
-.card image{
+.card img{
     max-width: 60px;
     margin-bottom: 16px;
+
 }
 .card h3{
     font-size: 24px;
@@ -201,7 +207,6 @@ nav .btn a{
     max-width: 1360px;
     margin: 120px 120px 120px 120px;
     gap: 60px;
-    border: 1px solid red;
 }
 .info-photo{
     max-width: 600px;
@@ -251,12 +256,10 @@ nav .btn a{
 
 #enroll{
     padding: 0px;
-    border: 1px solid red;
 }
 .enroll-container{
-    margin: 0px 120px 120px 120px;
+    margin: 80px 120px 120px 120px;
     background-color: #F7F6F2;
-    border: 1px solid red;
     align-items: center;
     text-align: center;
 }
@@ -277,16 +280,24 @@ nav .btn a{
 }
 
 .enroll-container button{
-    max-width: 194px;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 251px;
     height: 52px;
-    padding: 16px 46px 16px 16px;
     font-size: 16px;
     font-weight: 600px;
     background-color: #469165;
     color: #FFFFFF;
     border-radius: 4px;
 }
-.enroll-container ul{
+.enroll-container button img{
+    height: 16px;
+    width: auto;
+}
+.enroll-container p{
     font-size: 16px;
     line-height: 20px;
     color: #627382;
