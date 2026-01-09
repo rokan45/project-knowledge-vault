@@ -113,6 +113,7 @@ nav .btn a{
 }
 
 .banner-button .first-button{
+    padding: 16px 46px 16px 16px;
     height: 52px;
     width: 251px;
     font-size: 16px;
@@ -125,6 +126,7 @@ nav .btn a{
 }
 
 .banner-button .sec-button{
+    padding: 16px 46px 16px 16px;
     height: 52px;
     width: 251px;
     font-size: 16px;
@@ -245,4 +247,76 @@ nav .btn a{
      width: 20px;
      height: 20px;
      object-fit: contain;
+}
+
+#enroll{
+    padding: 0px;
+    border: 1px solid red;
+}
+.enroll-container{
+    margin: 0px 120px 120px 120px;
+    background-color: #F7F6F2;
+    border: 1px solid red;
+    align-items: center;
+    text-align: center;
+}
+
+.enroll-container h2{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+
+}
+
+.enroll-container p{
+    font-size: 16px;
+    line-height: 24px;
+    color: #627382;
+    margin-bottom: 24px;
+}
+
+.enroll-container button{
+    max-width: 194px;
+    height: 52px;
+    padding: 16px 46px 16px 16px;
+    font-size: 16px;
+    font-weight: 600px;
+    background-color: #469165;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+.enroll-container ul{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-top: 16px;
+}
+
+footer{
+     margin: 0 auto;
+    background-color: #001931;
+}
+footer .container{
+    padding: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .container img{
+    max-width: 139px;
+    height: 60px;
+}
+footer .icon{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 500px;
+    color: #FFFFFF;
+}
+footer .copy{
+    margin-top: 120px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FAFAFA;
+    text-align: center;
 }
