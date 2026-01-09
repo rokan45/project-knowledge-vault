@@ -255,10 +255,11 @@ nav .btn a{
 }
 
 #enroll{
-    padding: 0px;
+    padding: 80px 20px;
 }
 .enroll-container{
-    margin: 80px 120px 120px 120px;
+    padding: 80px 20px;
+    margin: 2px 120px 120px 120px;
     background-color: #F7F6F2;
     align-items: center;
     text-align: center;
